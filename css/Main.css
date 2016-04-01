@@ -1,0 +1,824 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-size: 20px;
+	font-family: 'lato', georgia, sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-shadow: 0 0.2px 0.1px;
+	color: #e1cfcf;
+	background-color: black;
+	min-width: 1024px;
+}
+
+/*---------------NAV--------------------*/
+
+nav {
+	background-color: black;
+	border-bottom: 2px solid #e1cfcf;
+	width: 100%;
+	overflow: hidden;
+}
+
+nav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav h3 {
+	text-align: center;
+	float: left;
+	text-transform: uppercase;
+	padding: 0.5%;
+	font-size: 120%;
+	letter-spacing: 5px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li a {
+	text-decoration: none;
+  color: #e1cfcf;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+  display: block;
+  float: right;
+  padding: 1.02%;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+nav a:hover {
+	background-color: #e1cfcf;
+	color: black;
+}
+
+
+#current {
+	background-color: #e1cfcf;
+	color: black;
+}
+
+/*-------------------------------HOME-------------------------*/
+
+.home img {
+	float: left;
+	width: 100%;
+}
+
+.home p {
+	width: 50%;
+	font-size: 120%;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 10%;
+	float: left;
+}
+
+.home img {
+	float: right;
+	width: 100%;
+
+}
+
+.home #low {
+	display: none;
+}
+
+
+.homeart {
+/*
+	background-color: #181818;
+	border-radius: 4px;
+	border: 1px solid #e1cfcf;
+	*/
+	width: 55%;
+	float: left;
+	margin: 5% 0% 0% 6%;
+	padding: 1%;
+	border-radius: 4px;
+
+}
+
+.homeart h1 {
+	
+	padding-bottom: 1%;
+	border-bottom: 1px solid  #e1cfcf;
+ 	font-size: 150%;
+}
+
+.homeart h2 {
+	
+	font-size: 150%;
+	
+}
+
+.homeart h5 {
+	font-size: 100%;
+	margin-bottom: 0.5%;
+}
+
+.homeart p {
+	font-size: 90%;
+}
+
+#twitter {
+	
+	float: right;
+	width: 40%;
+	margin-right:  2%;
+	margin-top: 2%;
+	margin-bottom: 1.5%;
+}
+
+
+
+/*-----------------------ABOUT-----------------------*/
+
+
+.contentAbout img {
+	float: left;
+	width: 32.5%;
+	border-right: 2px solid #e1cfcf;
+	
+}
+
+.contentAbout h3 {
+	font-size: 250%;
+	padding: 0.5% 0 0 2.5%;
+	letter-spacing: 4px;
+	float: left;
+	border-bottom: 1px solid #e1cfcf;
+	
+}
+
+.contentAbout p {
+	font-size: 80%;
+	text-align: center;
+	float: right;
+	width: 63%;
+	margin: 4.9% 2%;
+	letter-spacing: 1.5px;
+}
+
+
+/*-----------------------PRODUCTIONS------------------*/
+
+.imgprod {
+	display: none;
+}
+
+.sectone {
+	width: 100%;
+	min-height: 560px;
+	height: 100%;
+	background: url("../img/hamletbacktwoedit.jpg") fixed center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+	background-color: black;
+}	
+
+.secttwo {
+	width: 100%;
+	min-height: 560px;
+	height: 100%;
+	background: url("../img/smoothback.jpg") fixed center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+	background-color: black;
+}
+
+.sectthree {
+	width: 100%;
+	min-height: 560px;
+	height: 100%;
+	background: url("../img/holesback.jpg") fixed center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+	background-color: black;
+}
+
+#firstart {
+	display: table;
+  background-color: #e1cfcf;
+  width: 100%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#firstart hgroup {
+  color: black;	
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#firstart #bigreview {
+  font-size: 160%;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+
+#secondart {
+	display: table;
+  background-color: #e1cfcf;
+  width: 100%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#secondart hgroup {
+  color: black;	
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+
+#secondart #bigreview {
+  font-size: 160%;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#thirdart {
+	display: table;
+  background-color: #e1cfcf;
+  width: 100%;
+  border-top: 5px solid black;
+
+}
+
+#thirdart hgroup {
+  color: black;	
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#thirdart #bigreview {
+  font-size: 160%;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+
+.credits {
+	text-align: center;
+	width: 100%;	
+}
+
+.credits h6 {
+	width: 100%;
+	font-size: 150%;
+	margin-top: 2%;
+}
+
+.credits p {
+	width: 33.33%;
+	float: left;
+	font-size: 80%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+	
+
+/*-----------------------CONTACT----------------------*/
+
+
+.contentContact img {
+	
+	float: right;
+	width: 32.5%;
+	border-left: 2px solid #e1cfcf;
+	
+}
+
+.contentContact {
+	
+}
+
+.spotlink {
+	width: 67.5%;
+	float: left;
+	text-align: center;
+	margin-top: 2.5%;
+}
+
+.spotlink  #spotlight {
+	
+	height: 60px;
+	width: 60px;
+	border: none;
+	float: initial;
+	margin-right: 2%;
+}
+
+.twitterlink {
+	width: 67.5%;
+	float: left;
+	text-align: center;
+	margin-top: 2%;
+
+}
+
+.twitterlink .twitter-follow-button {
+	margin-right: 2%;
+}
+
+.contentContact h3 {
+	font-size: 250%;
+	padding: 0.5% 2.5% 0 0%;
+	letter-spacing: 4px;
+	float: right;
+	border-bottom: 1px solid #e1cfcf;
+}
+
+.contentContact p {
+	
+	float: left;
+	text-align: center;
+	width: 30%;
+	margin: 10% 0% 0% 18%;	
+}
+
+
+/*-----------------------FOOTER----------------------*/
+
+footer {
+	background-color: black;
+  	width: 100%;
+  	height: 5%;
+  	clear: both;
+  	border-top: 2px solid #e1cfcf;
+	
+}
+
+footer p {
+	text-align: center;
+	font-size: 60%;
+	padding: 1%;
+	float: right;
+	letter-spacing: 1px;
+}
+
+/* Media Queries for other devices */
+
+/* For Tablets and Landscape */
+@media only screen and (max-width: 1024px) {
+
+	body {
+		min-width: inherit;
+	}
+/* ------ NAV ----- */
+
+	nav {
+		background-color: ;
+	}
+
+	nav h3 {
+		width: 100%;
+		text-align: center;
+		padding: 2%;
+	}
+	
+	
+	nav a {
+		width: 100%;
+	}
+	
+	nav a:active {
+    color: black;
+	background-color: #e1cfcf;
+}
+	
+	nav li a {
+		text-align: center;
+		padding: 2%;
+	}
+	
+	nav li:first-child a {
+		border-top: 2px solid #e1cfcf;
+	}
+		
+	
+/* ------ HOME -------*/
+/*
+.home img {
+	width: 40%;
+}
+*/
+.homeart {
+			
+			margin: 5% 0% 0% 3%;
+		}
+		
+.homeart h1 {
+	
+	
+ 	font-size: 130%;
+}
+
+.homeart h2 {
+	
+	font-size: 130%;
+	
+}
+
+.homeart h5 {
+	font-size: 90%;
+}
+
+.homeart p {
+	font-size: 80%;
+}
+		
+/* ------ ABOUT -------*/
+
+.contentAbout img {
+	
+	width: 35%;
+}
+
+.contentAbout h3 {
+	font-size: 180%;
+}
+
+.contentAbout p {
+	width: 64%;
+	font-size: 70%;
+	margin: 3% 1% 0% 0%;
+}
+
+/* ------ PRODUCTIONS -------*/
+/* ------ CONTACT ------*/
+
+.contentContact img {
+	width: 35%;
+}
+
+.spotlink {
+	width: 65%;
+}
+
+.twitterlink {
+	width: 65%;
+}
+
+.contentContact h3 {
+	font-size: 180%;
+}
+
+.contentContact p{
+	margin-top: 8%;
+	font-size: 80%;
+}
+
+
+/* ------ FOOTER -------*/
+
+footer p {
+	font-size: 50%;
+}
+	
+}
+/*End of Tablet query*/
+
+
+/* For Large screen mobiles */
+
+@media only screen and (max-width: 767px) {
+
+/* ------ NAV ----- */
+
+	nav {
+		
+		background-color: ;
+		
+	}
+	
+	nav li a {
+		padding: 2%;
+	}
+
+	nav h3 {
+			padding: 2%;
+		}
+
+/* ------ HOME -------*/
+/*
+.home img {
+	width: 40%;
+}
+*/
+.homeart {
+			
+			margin: 1.5% 0% 0% 3%;
+		}
+
+.homeart h1 {
+	
+	padding-bottom: 1%;
+	border-bottom: 0.5px solid  #e1cfcf;
+ 	font-size: 125%;
+}
+
+.homeart h2 {
+	
+	font-size: 125%;
+	
+}
+
+.homeart h5 {
+	font-size: 75%;
+	margin-bottom: 0.5%;
+}
+
+.homeart p {
+	font-size: 65%;
+}
+
+/* ------ ABOUT -------*/
+
+.contentAbout img {
+	
+	width: 50%;
+	border-bottom: 2px solid #e1cfcf;
+	margin-right: 2%;
+}
+
+.contentAbout h3 {
+	display: none;
+}
+
+.contentAbout p {
+	width: 45%;
+	float: none;
+	display: inline;
+	font-size: 70%;
+	text-align: center;
+	
+}
+
+span {
+	display: none;
+}
+
+/* ------ PRODUCTIONS -------*/
+
+.imgprod {
+	display: initial;
+	width: 100%;
+}
+
+.sectone {
+	display: none;
+	min-height: 390px;
+	height: 100%;
+}
+
+.secttwo {
+	display: none;
+	min-height: 390px;
+	height: 100%;
+
+}
+
+.sectthree {
+	display: none;
+	min-height: 390px;
+	height: 100%;
+
+}
+/* ------ CONTACT ------*/
+
+.contentContact img {
+	width: 50%;
+}
+
+.spotlink {
+	width: 50%;
+}
+
+.twitterlink {
+	width: 50%;
+}
+
+
+.contentContact h3 {
+	display: none;
+}
+
+.contentContact p{
+	font-size: 70%;
+	margin: 5% 0% 0% 10%;
+}
+
+
+.credits h6 {
+	font-size: 120%;
+}
+
+.credits p {
+	font-size: 60%;
+
+}
+/* ------ FOOTER -------*/
+
+footer p {
+	font-size: 45%;
+}
+
+}
+
+/* End of Large screen query */
+
+/* For iphones and other mobiles*/
+
+@media only screen and (max-width: 480px) {
+		
+	
+
+/* ------ NAV ----- */		
+		nav {
+		background-color: ;
+	}
+
+		nav li a {
+		padding: 5%;
+	}
+	
+		nav h3 {
+			padding: 5%;
+		}
+
+
+/* ------ HOME -------*/
+
+.home img {
+	width: 100%;
+	border-bottom: 2px solid #e1cfcf;
+}
+
+
+.home #high {
+	display: none;
+}
+
+.home #low {
+	display: initial;
+}
+
+.homeart {
+			text-align: center;
+			padding: 5%;
+			margin: 3% 0% 3% 0%;
+			width: 100%;
+		}
+
+.homeart h1 {
+	
+	padding-bottom: 1%;
+	margin-bottom: 5%;
+	border-bottom: 0.5px solid  #e1cfcf;
+ 	font-size: 130%;
+}
+
+.homeart h2 {
+	
+	font-size: 130%;
+	
+	margin-bottom: 1%;
+	
+}
+
+.homeart h5 {
+	font-size: 80%;
+	margin-bottom: 7%;
+	
+	
+}
+
+.homeart p {
+	font-size: 70%;
+	text-align: left;
+}
+
+/* ------ ABOUT -------*/
+
+.contentAbout img {
+	
+	width: 100%;
+	border-right: none;
+	margin: 0%;
+}
+
+
+.contentAbout p {
+	width: 100%;
+	float: left;
+	display: initial;
+	font-size: 70%;
+	text-align: center;
+	padding: 5%;
+}
+
+/* ------ PRODUCTIONS -------*/
+
+#firstart hgroup {
+  display: none;
+}
+
+
+#secondart hgroup {
+  display: none;
+}
+
+
+#thirdart hgroup {
+  display: none;
+}
+
+#firstart #bigreview {
+  display: inherit;
+  width: 100%;
+  font-size: 100%;
+}
+
+#secondart #bigreview {
+  display: inherit;
+  width: 100%;
+  font-size: 100%;
+}
+
+#thirdart #bigreview {
+  display: inherit;
+  width: 100%;
+  font-size: 100%;
+}
+
+.credits h6 {
+	font-size: 70%;
+}
+
+.credits p {
+	font-size: 40%;
+
+}
+
+/* ------ CONTACT ------*/
+
+.contentContact img {
+	width: 100%;
+	border-left: none;
+	border-bottom: 2px solid #e1cfcf;
+}
+
+.spotlink {
+	width: 100%;
+}
+
+.twitterlink {
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+
+
+.contentContact p {
+	width: 100%;
+	font-size: 70%;
+	margin: 5% 0%;
+}
+
+/* ------ FOOTER -------*/
+
+footer p {
+	font-size: 40%;
+}
+
+}
