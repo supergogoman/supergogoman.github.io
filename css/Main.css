@@ -513,6 +513,10 @@ footer p {
 
 @media only screen and (max-width: 767px) {
 
+body {
+	font-weight: bold;
+}
+
 /* ------ NAV ----- */
 
 	nav {
